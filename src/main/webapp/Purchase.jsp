@@ -35,10 +35,11 @@
 					<th class="displayTableData">Category</th>
 					<th class="displayTableData">Status</th>
 				</tr>
-				<tr>
-					<%
+				<%
 					for (Book curBook : allBook) {
 					%>
+				<tr>
+
 
 					<td class="displayTableData"><%=curBook.getBid()%></td>
 					<td class="displayTableData"><%=curBook.getBname()%></td>
@@ -46,10 +47,11 @@
 					<td class="displayTableData"><%=curBook.getCost()%></td>
 					<td class="displayTableData"><%=curBook.getCategory()%></td>
 					<td class="displayTableData"><%=curBook.getStatus()%></td>
-					<%
+
+				</tr>
+				<%
 					}
 					%>
-				</tr>
 			</table>
 			<div id="inputForm">
 				<form action="AddPurchase" method="post">

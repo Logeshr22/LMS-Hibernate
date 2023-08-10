@@ -146,10 +146,10 @@ th {
 	padding: 20px 30px;
 	border: 2px solid #78290f;
 	border-radius: 10px;
-	transition: 0.2s;
+	transition: 0.1s;
 }
 
-.LinkButton:hover
+.LinkButton:hovers
 {
 	box-shadow: 5px 5px black;
 }

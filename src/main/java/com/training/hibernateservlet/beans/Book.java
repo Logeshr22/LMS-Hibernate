@@ -58,14 +58,11 @@ public class Book {
 	    HibernateManager hbm = new HibernateManager();
 	    Transaction trn = hbm.Session.beginTransaction();
 
-	    Query allListQuery = hbm.Session.createQuery("FROM Book");
-
+	    Query allListQuery = hbm.Session.createQuery("FROM Book where status=:status");
+	    allListQuery.setParameter("status","Active");
 	    List list = allListQuery.list();
-
 	    Iterator it = list.iterator();
-
 	    while (it.hasNext()) {
-
 	    	Book curBook = (Book) it.next();
 
 	    	allBook.add(curBook);

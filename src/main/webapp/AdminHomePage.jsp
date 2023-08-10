@@ -11,7 +11,7 @@
 
 <body>
 	<div class="navContainer">
-		<img src="Logo.png" id="logo">
+		<img src="Logo.png" id="logo"> 
 		<div class="topnav">
 			<a class="navLink" href="Welcome.html">HOME</a> <a class="active"
 				class="navLink" href="AdminLogin.html">ADMIN</a> <a class="navLink"

@@ -123,7 +123,7 @@ public class HibernateManager {
 		Transaction tran = Session.beginTransaction();
 
 		org.hibernate.Query q = Session.createQuery("From Book where status=:status");
-		q.setParameter("status","Inactive");
+		q.setParameter("status","Active");
 
 		List l1 = q.list();
 

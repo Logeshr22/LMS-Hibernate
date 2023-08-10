@@ -42,7 +42,7 @@ public class Register extends HttpServlet{
 
         usr.setPwd(req.getParameter("pwd"));
 
-        usr.setAddress(req.getParameter("address"));
+        usr.setAddress(req.getParameter("add"));
 
         usr.setPhone(Long.parseLong(req.getParameter("phone")));
 

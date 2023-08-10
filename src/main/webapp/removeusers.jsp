@@ -34,10 +34,11 @@
 					<th class="displayTableData">Email</th>
 					<th class="displayTableData">Status</th>
 				</tr>
-				<tr>
+				
 					<%
 					for (User curuser : allusers) {
 					%>
+					<tr>
 					<td class="displayTableData"><%=curuser.getUid()%></td>
 					<td class="displayTableData"><%=curuser.getUname()%></td>
 					<td class="displayTableData"><%=curuser.getPwd()%></td>
@@ -45,10 +46,11 @@
 					<td class="displayTableData"><%=curuser.getPhone()%></td>
 					<td class="displayTableData"><%=curuser.getEmail()%></td>
 					<td class="displayTableData"><%=curuser.getStatus()%></td>
+					</tr>
 					<%
 					}
 					%>
-				</tr>
+				
 			</table>
 			<div id="inputForm">
 				<form action="RemoveUser" method="post">

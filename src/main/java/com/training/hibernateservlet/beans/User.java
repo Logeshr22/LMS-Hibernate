@@ -73,7 +73,8 @@ public class User {
 		Transaction tran = hbm.Session.beginTransaction();
 
 
-		Query allListQuery = hbm.Session.createQuery("From User");
+		Query allListQuery = hbm.Session.createQuery("From User where status=:status");
+		allListQuery.setParameter("status","Active");
 
 		List list = allListQuery.list();
 
