@@ -154,11 +154,10 @@ th {
 	box-shadow: 5px 5px black;
 }
 .LinkButton:active{
-	background-color: black;
-	border : 2px solid black;
+	background-color:#78290f;
+	border : none;
 	color: white;
 }
-
 #LoginButton {
 	border-radius: 10px;
 	color: white;
@@ -170,14 +169,15 @@ th {
 	width: fit-content;
 	display: inline-block;
 	height: fit-content;
-	transition : 0.2s;
+	transition : 0.1s;
 }
 #LoginButton:hover {
-	box-shadow: 5px 5px black;
+	background-color: #b08968;
 }
 #LoginButton:active{
-	background-color: black;
+	background-color:#78290f;
 	color:white;
+	border : none;
 }
 
 h1 {
@@ -218,7 +218,7 @@ table {
 	display: inline-block;
 	border: 2px solid #78290f;
 	padding: 50px;
-	background-color: white;
+	background-color:#f5ebe0;
 	color: black;
 	border-radius: 10px;
 	text-align: center;
@@ -237,7 +237,7 @@ table {
 	margin-top: 20px;
 	text-align: center;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .input#button {

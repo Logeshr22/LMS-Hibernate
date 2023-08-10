@@ -16,7 +16,6 @@ public class AddBook extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		Book b=new Book();
-
 		HttpSession session=req.getSession(true);
 		b.setBname(req.getParameter("bname"));
 		b.setAuthor(req.getParameter("author"));

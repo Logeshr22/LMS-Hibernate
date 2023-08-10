@@ -18,7 +18,7 @@ public class RemoveUser extends HttpServlet{
 		boolean b=hbm.deleteUser(uid);
 		if(b==true)
 		{
-			resp.sendRedirect("DeleteSucess.html");
+			resp.sendRedirect("DeleteSuccess.html");
 		}
 		else
 		{

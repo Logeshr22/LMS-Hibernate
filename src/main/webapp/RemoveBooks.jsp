@@ -37,10 +37,11 @@
 					<th class="displayTableData">Category</th>
 					<th class="displayTableData">Status</th>
 				</tr>
-				<tr>
-					<%
+				<%
 					for (Book curSub : allBooks) {
 					%>
+				<tr>
+
 
 					<td class="displayTableData"><%=curSub.getBid()%></td>
 					<td class="displayTableData"><%=curSub.getBname()%></td>
@@ -48,10 +49,11 @@
 					<td class="displayTableData"><%=curSub.getCost()%></td>
 					<td class="displayTableData"><%=curSub.getCategory()%></td>
 					<td class="displayTableData"><%=curSub.getStatus()%></td>
-					<%
+
+				</tr>
+				<%
 					}
 					%>
-				</tr>
 			</table>
 			<div id="inputForm">
 				<form action="removebook" method="post">
@@ -62,7 +64,7 @@
 						</tr>
 					</table>
 					<div class="buttonHolder">
-						<input id="LoginButton" type="submit" value="Remove User">
+						<input id="LoginButton" type="submit" value="Remove Book">
 						<a id="LoginButton" href="AdminHomePage.jsp">Back</a>
 					</div>
 				</form>

@@ -23,7 +23,7 @@
 	<h1 class="header">Authorize Users</h1>
 	<%
 	HibernateManager hm = new HibernateManager();
-	ArrayList<User> allUser = hm.readAllUser();
+	ArrayList<User> allUser = HibernateManager.readAllUser();
 	%>
 	<div class="formContainer">
 		<div class="list">
@@ -56,7 +56,7 @@
 					<table>
 						<tr>
 							<td><label class="label">User ID</label></td>
-							<td><input class="input" type="text" name="bid"></td>
+							<td><input class="input" type="text" name="uid"></td>
 						</tr>
 					</table>
 					<div class="buttonHolder">

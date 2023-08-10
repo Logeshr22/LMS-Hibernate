@@ -3,89 +3,89 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="app.css">
-    <meta charset="ISO-8859-1">
+	<link rel="stylesheet" href="app.css">
+	<meta charset="ISO-8859-1">
 
-    <title>Register</title>
+	<title>Add Books</title>
 
 </head>
 
 <body>
 
-    <div class="navContainer">
-        <img src="Logo.png" id="logo">
-        <div class="topnav">
-            <a class="navLink" href="Welcome.html">Home</a>
-            <a class="active" class="navLink" href="AdminLogin.html">Admin</a>
-            <a  class="navLink" href="UserLogin.html">User</a>
-            <a  class="navLink" href="Register.html">Register</a>
-        </div>
-    </div>
-    <h1 class="header">Add Book</h1>
-    <div class="formContainer">
-        <form action="AddBook" method="post">
-            <div id="form" class="list">
-                <table>
-                    <tr>
-                        <td>
-                            <label  class="label">Book name</label>
+	<div class="navContainer">
+		<img src="Logo.png" id="logo">
+		<div class="topnav">
+			<a class="navLink" href="Welcome.html">Home</a>
+			<a class="active" class="navLink" href="AdminLogin.html">Admin</a>
+			<a class="navLink" href="UserLogin.html">User</a>
+			<a class="navLink" href="Register.html">Register</a>
+		</div>
+	</div>
+	<h1 class="header">Add Book</h1>
+	<div class="formContainer">
+		<form action="AddBook" method="post">
+			<div id="form" class="list">
+				<table>
+					<tr>
+						<td>
+							<label class="label">Book name</label>
 
-                        </td>
-                        <td>
-                            <input class="input" type="text" name="bname">
+						</td>
+						<td>
+							<input class="input" type="text" name="bname">
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label  class="label">Book Author</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="label">Book Author</label>
 
-                        </td>
-                        <td>
-                            <input class="input" type="text" name="author">
+						</td>
+						<td>
+							<input class="input" type="text" name="author">
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label  class="label">Book Cost</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="label">Book Cost</label>
 
-                        </td>
-                        <td>
-                            <input class="input" type="text" name="cost">
+						</td>
+						<td>
+							<input class="input" type="text" name="cost">
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label  class="label">Book Category</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="label">Book Category</label>
 
-                        </td>
-                        <td>
-                            <input class="input" type="text" name="category">
+						</td>
+						<td>
+							<input class="input" type="text" name="category">
 
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label  class="label">Book Status</label>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label class="label">Book Status</label>
 
-                        </td>
-                        <td>
-                            <input class="input" type="text" name="status">
+						</td>
+						<td>
+							<input class="input" type="text" name="status">
 
-                        </td>
-                    </tr>
+						</td>
+					</tr>
 
-                </table>
-            </div>
-            <div class="buttonHolder">
-                <input id="LoginButton" type="submit" value="Add Book">
+				</table>
+			</div>
+			<div class="buttonHolder">
+				<input id="LoginButton" type="submit" value="Add Book">
+				<a id="LoginButton" href="AdminHomePage.jsp">Back</a>
+			</div>
+		</form>
 
-            </div>
-        </form>
-
-    </div>
+	</div>
 
 
 </body>

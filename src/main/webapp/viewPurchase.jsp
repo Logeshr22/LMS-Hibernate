@@ -34,20 +34,22 @@
 					<th class="displayTableData">Amount</th>
 					<th class="displayTableData">Invoice No.</th>
 				</tr>
-				<tr>
-					<%
+				<%
 					for (PurchaseHistory curpurchase : allpurchases) {
 					%>
+				<tr>
+
 					<td class="displayTableData"><%=curpurchase.getPid()%></td>
-					<td class="displayTableData"><%=curpurchase.getBname()%></td>
 					<td class="displayTableData"><%=curpurchase.getBid()%></td>
+					<td class="displayTableData"><%=curpurchase.getBname()%></td>
 					<td class="displayTableData"><%=curpurchase.getUid()%></td>
 					<td class="displayTableData"><%=curpurchase.getAmount()%></td>
 					<td class="displayTableData"><%=curpurchase.getInvoice_no()%></td>
-					<%
+
+				</tr>
+				<%
 					}
 					%>
-				</tr>
 			</table>
 			<div class="buttonHolder">
 				<a id="LoginButton" href="AdminHomePage.jsp">Back</a>

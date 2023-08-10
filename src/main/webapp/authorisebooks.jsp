@@ -36,20 +36,21 @@
 					<th class="displayTableData">Category</th>
 					<th class="displayTableData">Book Status</th>
 				</tr>
-				<tr>
-					<%
+				<%
 					for (Book curSub : allBooks) {
 					%>
+				<tr>
 					<td class="displayTableData"><%=curSub.getBid()%></td>
 					<td class="displayTableData"><%=curSub.getBname()%></td>
 					<td class="displayTableData"><%=curSub.getAuthor()%></td>
 					<td class="displayTableData"><%=curSub.getCost()%></td>
 					<td class="displayTableData"><%=curSub.getCategory()%></td>
 					<td class="displayTableData"><%=curSub.getStatus()%></td>
-					<%
+
+				</tr>
+				<%
 					}
 					%>
-				</tr>
 			</table>
 			<div id="inputForm">
 				<form action="authorizebooks" method="post">
