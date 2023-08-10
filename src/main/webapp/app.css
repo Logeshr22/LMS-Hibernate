@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,600;0,700;1,600&family=Inknut+Antiqua:wght@600;700&family=Marcellus&family=Playfair+Display:wght@800;900&family=Prata&family=Rubik:wght@500;700&display=swap');	
+body{
+	margin: 0;
+	background-color: #f5ebe0;
+	font-family: Marcellus;
+	font-weight: 700;
+	text-align: center;
+}
+.imgContainer{
+	display: flex;
+	justify-content: center;
+	
+}
+#welcomeImg{
+	margin: 20px 30px;
+	border: 2px solid black;
+	border-radius: 10px;
+	transition: 0.5s;
+}
+#welcomeImg:hover{
+	box-shadow: 10px 10px black;
+}
+.galleryImg{
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+
+.topnav {
+
+	overflow: hidden;
+	display: flex;
+	margin-top: 25px;
+}
+
+.navContainer {
+	font-family: Rubik;
+	font-weight: 900;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 25px;
+	background-color: white;
+}
+
+.topnav a.active{
+	border: 2px solid black;
+}
+
+#logo {
+	margin-top: 25px;
+	float: left;
+	height: 50px;
+	margin-left: 30px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: right;
+	background-color: white; 	
+	color : black;
+	padding: 14px 40px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 15px;
+	height: fit-content;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	/* border: 2px solid black; */
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	border : 2px solid black;
+}
+
+.welcomeBackground {
+	background: url('welcomeBackground.png') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.header {
+	text-align: center;
+	color: black;
+	margin: 40px 0px;
+	font-family: cormorant;
+	font-weight: 700;
+	font-size: 35px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.listPoints {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+h1 {
+	margin: 0px;
+}
+
+.formContainer#inputForm {
+	margin-top: 50px;
+}
+
+th {
+	background-color: black;
+	color: white;
+}
+
+.navLink {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	padding: 20px 20px;
+}
+
+.Link {
+	display: flex;
+	justify-content: center;
+	color: white;
+	background-color: black;
+	padding: 20px 20px;
+}
+
+#inputForm {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.LinkButton {
+	display: flex;
+	justify-content: center;
+	color: #78290f;
+	background-color: white;
+	padding: 20px 30px;
+	border: 2px solid #78290f;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+
+.LinkButton:hover
+{
+	box-shadow: 5px 5px black;
+}
+.LinkButton:active{
+	background-color: black;
+	border : 2px solid black;
+	color: white;
+}
+
+#LoginButton {
+	border-radius: 10px;
+	color: white;
+	font-family: Marcellus;
+	background-color: #78290f;
+	border: 0px solid white;
+	font-size: 20px;
+	padding: 15px 20px;
+	width: fit-content;
+	display: inline-block;
+	height: fit-content;
+	transition : 0.2s;
+}
+#LoginButton:hover {
+	box-shadow: 5px 5px black;
+}
+#LoginButton:active{
+	background-color: black;
+	color:white;
+}
+
+h1 {
+	color: black;
+	text-align: center;
+}
+
+.input {
+	margin: 10px;
+	padding: 5px 5px;
+	height: 20px;
+	border: 2px solid #78290f;
+	color: black;
+	border-radius: 5px;
+}
+
+table {
+	border-spacing: 0 10px;
+	color: black;
+}
+
+.displayTable {
+	border-collapse: collapse;
+}
+
+.displayTableData {
+	width: 150px;
+	text-align: center;
+	border: 2px solid black;
+	padding: 5px
+}
+
+.message {
+	font-size: 25px;
+}
+
+.formContainer {
+	display: inline-block;
+	border: 2px solid #78290f;
+	padding: 50px;
+	background-color: white;
+	color: black;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 10px 10px #78290f;
+}
+
+#messageContainer {
+	margin-top: 25px 0px;
+}
+
+.td {
+	padding: 20px;
+}
+
+.buttonHolder {
+	margin-top: 20px;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.input#button {
+	padding: 20px 20px;
+	color: black;
+	background-color: white;
+	font-family: montserrat;
+	text-align: center;
+}
+
+
+
+.input:hover,
+.input:focus,
+.input:active {
+	border: 2px solid black;
+}
+
+.label {
+	font-size: 20px;
+	color: black;
+	float: left;
+}
+
+.button {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	transition: background-color 0.1s;
+}
+
+.space {
+	margin-top: 100px;
+}
+
+a {
+	text-decoration: none;
+	background-color: #F11A7B;
+	color: white;
+	border: none;
+}
+
+a {
+	color: white;
+}

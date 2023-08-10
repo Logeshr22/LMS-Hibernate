@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="app.css">
+    <meta charset="ISO-8859-1">
+
+    <title>User Login</title>
+
+</head>
+
+<body>
+
+    <div class="navContainer">
+        <img src="Logo.png" id="logo">
+        <div class="topnav">
+            <a class="navLink" href="Welcome.html">Home</a>
+            <a class="navLink" href="AdminLogin.html">Admin</a>
+            <a class="active" class="navLink" href="UserLogin.html">User</a>
+            <a class="navLink" href="Register.html">Register</a>
+        </div>
+    </div>
+    <h1 class="header">User Login</h1>
+    <div class="formContainer">
+        <form action="UserLogin" method="post">
+            <div id="form" class="list">
+                <table>
+                    <tr>
+                        <td>
+                            <label class="label">User ID</label>
+
+                        </td>
+                        <td>
+                            <input class="input" type="text" name="uid">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label  class="label">Password</label>
+
+                        </td>
+                        <td>
+                            <input class="input" type="text" name="pwd">
+
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="buttonHolder">
+                <input id="LoginButton" type="submit" value="Login">
+
+            </div>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

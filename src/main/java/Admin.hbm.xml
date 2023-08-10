@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.training.hibernateservlet.beans.Admin" table="Admin">
+
+        <id name="admin_id" column="admin_id"></id>
+
+        <property name="secretpin">
+
+            <column name="secretpin" />
+
+        </property>
+
+    </class>
+
+</hibernate-mapping>

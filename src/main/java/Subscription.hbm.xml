@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+
+ 
+
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+ 
+
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+ 
+
+<hibernate-mapping>
+
+ 
+
+    <class name="com.training.hibernateservlet.beans.Subscription"
+
+        table="subscription">
+
+ 
+
+        <id name="sub_id" column="sub_id">
+        <generator class="increment"></generator>
+        </id>
+        
+
+ 
+
+        <property name="uid">
+
+ 
+
+            <column name="uid" />
+
+ 
+
+        </property>
+
+        <property name="amount">
+
+ 
+
+            <column name="amount" />
+
+ 
+
+        </property>
+
+        
+
+        <property name="invoiceno">
+
+ 
+
+            <column name="invoiceno" />
+
+ 
+
+        </property>
+
+        
+
+       
+
+        
+
+        <property name="Date">
+
+ 
+
+            <column name="Date" />
+
+ 
+
+        </property>
+
+ 
+
+    </class>
+
+ 
+
+</hibernate-mapping>

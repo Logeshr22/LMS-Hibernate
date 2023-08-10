@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="app.css">
+    <meta charset="ISO-8859-1">
+
+    <title>Admin Login</title>
+
+</head>
+
+<body>
+
+    <div class="navContainer">
+        <img src="Logo.png" id="logo">
+        <div class="topnav">
+            <a  class="navLink" href="Welcome.html">Home</a>
+            <a class="active" class="navLink" href="AdminLogin.html">Admin</a>
+            <a class="navLink" href="UserLogin.html">User</a>
+            <a class="navLink" href="Register.html">Register</a>
+        </div>
+    </div>
+    <h1 class="header">One Month Subscription</h1>
+    <div class="formContainer">
+        <form action="AddSubscription" method="post">
+            <div id="form" class="list">
+                <table>
+                    <tr>
+                        <td>
+                            <label class="label">Enter Amount</label>
+
+                        </td>
+                        <td>
+                            <input class="input" type="text" name="amount">
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label  class="label">Enter Date</label>
+
+                        </td>
+                        <td>
+                            <input class="input" type="date" name="date">
+
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="buttonHolder">
+                <input id="LoginButton" type="submit" value="Subscribe">
+
+            </div>
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>

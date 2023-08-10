@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="com.training.hibernateservlet.beans.Book" table="Book">
+
+        <id name="bid" column="bid">
+
+        <generator class="increment"></generator>
+
+        </id>
+
+        <property name="bname">
+
+            <column name="bname" />
+
+        </property>
+
+        <property name="author">
+
+            <column name="author" />
+
+        </property>
+
+        <property name="cost">
+
+            <column name="cost" />
+
+        </property>
+
+        <property name="category">
+
+            <column name="category" />
+
+        </property>
+
+        <property name="status">
+
+            <column name="status" />
+
+        </property>
+
+    </class>
+
+</hibernate-mapping>
